@@ -13,3 +13,155 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /*width: 1200px;*/
+  width: 100%;
+  margin: 33px;
+}
+
+h1 {
+  color: black;
+  /*margin: 10px;*/
+}
+
+.top-title {
+  margin: 40px;
+}
+
+
+
+table {
+  /*width:900px;*/
+  width: 70%;
+  display: table;
+  border-collapse: separate;
+  /*box-sizing: border-box;*/
+  /*text-indent: initial;*/
+  border-spacing: 2px;
+
+}
+
+.bookList {
+  margin: auto;
+  table-layout: auto;
+  table-layout: fixed;
+}
+
+.bookListTitle {
+  width: 30%;
+  margin: 5px 10px;
+}
+
+.bookListBody {
+  width: 60%;
+  margin: 5px 10px;
+
+}
+
+.bookListShow {
+  width: 5%;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.bookListEdit {
+  width: 5%;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.bookListDestroy {
+  width: 5%;
+  padding-bottom: 5px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.follow_title {
+  margin-bottom: 10px;
+}
+
+.follow_body {
+  margin-bottom: 10px;
+}
+.follow_submit {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.follow_show_edit {
+  position: relative;
+  /*display: inline-block;*/
+  /*border-right: 2px solid #000;*/
+  height: 15px;
+  line-height: 15px;
+  margin-right: 1.5em;
+  color: #696969;
+}
+
+.follow_show_edit::after {
+  position: absolute;
+  top: 5px;
+  left: 100%;
+  margin: 0 1rem;
+  content: "";
+  width: 1px;
+  height: 60%;
+  background-color: black;
+}
+
+.follow_Back {
+  height: 15px;
+  line-height: 15px;
+  color: #696969;
+}
+
+.showViews {
+  width: 700px;
+  margin: 33px;
+}
+
+.showViewsTitle {
+  /*background-color: #ffa07a;*/
+  display: flex;
+  margin-bottom: 30px;
+
+}
+
+.showTitleBodyLeft {
+  /*background-color: blue;*/
+  font-size: 15px;
+  /*display: block;*/
+}
+
+.showViewsBody {
+  /*clear: both;*/
+  /*background-color: #9acd32;*/
+  display: flex;
+  margin-bottom: 30px;
+}
+
+
+.showTitleBodyRight {
+  /*background-color: red;*/
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+.flash_color {
+  color: green;
+  margin-left: 33px;
+  font-size: 13px;
+}
